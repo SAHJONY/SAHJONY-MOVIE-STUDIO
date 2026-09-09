@@ -1,0 +1,25 @@
+{
+  "project_title": "The Compass in the Rain",
+  "concept": "A handcrafted dark-fantasy traveler follows a living brass compass through a storm-soaked miniature city.",
+  "style_bible": {
+    "look": "handcrafted miniature cinematic animation",
+    "materials": "felt, carved wood, oxidized brass, wet stone",
+    "lighting": "warm practicals against cool storm ambience"
+  },
+  "character_bible": {
+    "id": "TRAVELER_001",
+    "wardrobe": "mustard raincoat, dark boots, red scarf",
+    "hero_prop": "weathered brass compass"
+  },
+  "shots": [
+    {"shot_id":"S01","description":"Rain falls across the miniature city as the traveler enters frame.","duration_seconds":5,"priority":"hero"},
+    {"shot_id":"S02","description":"The traveler opens a weathered brass compass beneath a street lamp.","duration_seconds":5,"priority":"normal"},
+    {"shot_id":"S03","description":"The compass needle spins and points toward a narrow alley.","duration_seconds":5,"priority":"normal"},
+    {"shot_id":"S04","description":"The traveler follows the glowing compass into the alley.","duration_seconds":5,"priority":"hero"},
+    {"shot_id":"S05","description":"A puddle reflection reveals a shadow moving behind the traveler.","duration_seconds":5,"priority":"normal"},
+    {"shot_id":"S06","description":"The traveler stops; the compass light intensifies in both hands.","duration_seconds":5,"priority":"normal"},
+    {"shot_id":"S07","description":"A tiny wooden door emerges from the wet brick wall.","duration_seconds":5,"priority":"hero"},
+    {"shot_id":"S08","description":"The traveler unlocks the impossible door with the compass.","duration_seconds":5,"priority":"normal"},
+    {"shot_id":"S09","description":"Warm impossible light floods the alley as the traveler steps through.","duration_seconds":5,"priority":"hero"}
+  ]
+}
