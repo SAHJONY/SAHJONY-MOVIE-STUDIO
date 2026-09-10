@@ -1,6 +1,9 @@
 .env
 .env.*
 !.env.example
+.vercel/
+.next/
+node_modules/
 .venv/
 venv/
 __pycache__/
@@ -11,5 +14,3 @@ htmlcov/
 .DS_Store
 .sahjony_v2.b64
 *.zip
-.vercel/
-node_modules/
