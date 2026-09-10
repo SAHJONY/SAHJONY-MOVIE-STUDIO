@@ -11,6 +11,7 @@ class CameraSpec:
     movement: str = "locked"
     height_m: float = 1.5
     aperture: float = 2.8
+    command: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -34,6 +35,7 @@ class ShotSpec:
     style: dict[str, Any] = field(default_factory=dict)
     references: list[dict[str, str]] = field(default_factory=list)
     audio: dict[str, Any] = field(default_factory=dict)
+    spatial: dict[str, Any] = field(default_factory=dict)
     priority: str = "normal"
 
 
